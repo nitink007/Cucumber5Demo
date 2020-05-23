@@ -9,4 +9,8 @@ public class Stepdefs {
         System.out.println("arg0: "+arg0+" arg1: "+arg1);
     }
 
+    @Given("Login user into {string} application")
+    public void loginUserIntoApplication(String arg0) {
+
+    }
 }
