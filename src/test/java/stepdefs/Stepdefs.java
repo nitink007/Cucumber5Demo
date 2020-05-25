@@ -11,6 +11,6 @@ public class Stepdefs {
 
     @Given("Login user into {string} application")
     public void loginUserIntoApplication(String arg0) {
-
+        System.out.println("Application: "+arg0);
     }
 }

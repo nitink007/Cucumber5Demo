@@ -2,7 +2,7 @@
 Feature: This is test Feature1
 
   Background: This is the background for the scenario
-    Given Login user into "" application
+    Given Login user into "myApp" application
 
   Scenario: This is a sample scenario1
     Given User enters "asdf" into "dfv" field
