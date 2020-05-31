@@ -9,3 +9,7 @@ Feature: This is test Feature1
     And User enters "11" into "22" field
     And User enters "nitin" into "kumar" field
 
+  Scenario: This is a sample scenario2
+    Given User enters "2nd" into "2nd" field
+    And User enters "2nd" into "22" field
+    And User enters "aman" into "kumar" field
